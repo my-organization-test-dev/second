@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+
+    <f:view contentType="text/html">
+        <h:head>
+            <f:facet name="first">
+                <meta content='text/html; charset=UTF-8' http-equiv="Content-Type"/>
+                <title>PrimeFaces</title>
+            </f:facet>
+        </h:head>
+
+        <h:body>
+            <p:layout fullPage="true">
+
+                <p:layoutUnit position="north" size="100" resizable="true" 
+                              closable="true" collapsible="true" 
+                           >
+                    <h1  style="background-color: #115854; width: 100%;height: 100px; 
+                         color: whitesmoke; margin: 0; padding: 5px; text-align: center"> 
+                        drug tracking system  </h1>
+                </p:layoutUnit>
+
+                <p:layoutUnit position="south" size="100" closable="true" collapsible="true">
+                   <h4  style="background-color: black;letter-spacing: 0.1em; width: 100%;height: 100px; 
+                         color: whitesmoke; margin: 0; padding: 5px; text-align: center"> 
+                        FMHACA@copy right 2011 E.C</h4>
+                </p:layoutUnit>
+
+                <p:layoutUnit position="west" size="175" collapsible="true" >
+                    <p:menu>
+                        <p:submenu label="Resources" style="background-color: #115854; color: whitesmoke">
+                            <p:menuitem value="home" url="#" style="font-size:24px ;background-color: #115854; color: whitesmoke;margin:"/>
+                            <p:menuitem value="sell" url="#" style="font-size:24px ;background-color: #115854; color: whitesmoke;margin: 5px" />
+                            <p:menuitem value="view drug" url="#" style="font-size:24px ;background-color: #115854; color: whitesmoke;margin: 5px"/>
+                            <p:menuitem value="approve request" url="#" style="font-size:24px ;background-color: #115854; color: whitesmoke;margin: 5px"/>
+                            <p:menuitem value="batch track" url="#" style="font-size:24px ;background-color: #115854; color: whitesmoke;margin: 5px"/>
+                        </p:submenu>
+
+                    </p:menu>
+                </p:layoutUnit>
+
+                <p:layoutUnit position="center">
+                    <div style=" float: left; background-color: skyblue">
+                    <label>brand name</label> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                    <p:inputText></p:inputText> <br></br><br></br>
+                    <label>first name</label> &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                    <p:inputText></p:inputText> <br></br><br></br>
+                     <label>batch number</label> &nbsp;&nbsp;&nbsp;
+                    <p:inputText></p:inputText> <br></br><br></br>
+                    <label>t-group</label> &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                    <p:inputText></p:inputText> <br></br><br></br>
+                     <label>sub_t_group</label> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <p:inputText></p:inputText> <br></br><br></br>
+                    <label>generic name</label> &nbsp;&nbsp;
+                    <p:inputText></p:inputText> <br></br><br></br>
+                    <label>current owner</label> &nbsp;&nbsp;
+                    <p:inputText></p:inputText> <br></br><br></br>
+                    <label>manufacturer</label> &nbsp;&nbsp;
+                    <p:inputText></p:inputText> <br></br><br></br>
+                    <p:commandButton value="cancel" style="background-color: yellow"/>
+                </div>
+                    <div style="float: left; padding-left: 50px;background-color: skyblue">
+                    <label>dosage_form</label> &nbsp;&nbsp;&nbsp;
+                    <p:inputText></p:inputText> <br></br><br></br>
+                    <label>strength</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <p:inputText></p:inputText> <br></br><br></br>
+                     <label>country of orgin</label>&nbsp;
+                    <p:inputText></p:inputText> <br></br><br></br>
+                    <label>register_date</label> &nbsp;&nbsp;&nbsp;
+                    <p:inputText></p:inputText> <br></br><br></br>
+                     <label>expired_date</label> &nbsp;&nbsp;&nbsp;
+                    <p:inputText></p:inputText> <br></br><br></br>
+                    <label>amount</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <p:inputText></p:inputText> <br></br><br></br>
+                     <label>drug_info</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <p:inputText></p:inputText> <br></br><br></br>
+                    <label>status</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    <p:inputText></p:inputText> <br></br><br></br>
+                    <p:commandButton value="submit" style="background-color: green"/>
+                </div>
+           
+                </p:layoutUnit>
+
+            </p:layout>
+
+        </h:body>
+
+    </f:view>
+</html>
+

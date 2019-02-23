@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+
+    <f:view contentType="text/html">
+        <h:head>
+            <f:facet name="first">
+                <meta content='text/html; charset=UTF-8' http-equiv="Content-Type"/>
+                <title>PrimeFaces</title>
+            </f:facet>
+        </h:head>
+
+        <h:body>
+            <p:layout fullPage="true">
+
+                <p:layoutUnit position="north" size="100" resizable="true" 
+                              closable="true" collapsible="true" 
+                           >
+                    <h1  style="background-color: #115854; width: 100%;height: 100px; 
+                         color: whitesmoke; margin: 0; padding: 5px; text-align: center"> 
+                        drug tracking system  
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                       <p:commandButton value="Login" style=""></p:commandButton></h1>
+                </p:layoutUnit>
+
+                <p:layoutUnit position="south" size="100" closable="true" collapsible="true">
+                   <h4  style="background-color: black;letter-spacing: 0.1em; width: 100%;height: 100px; 
+                         color: whitesmoke; margin: 0; padding: 5px; text-align: center"> 
+                        FMHACA@copy right 2011 E.C</h4>
+                </p:layoutUnit>
+
+                <p:layoutUnit position="west" size="175" collapsible="true" >
+                    <p:menu>
+                        <p:submenu label="Resources" style="background-color: #115854; color: whitesmoke">
+                            <p:menuitem value="home" url="#" style="font-size:24px ;background-color: #115854; color: whitesmoke;margin:"/>
+                            <p:menuitem value="service" url="#" style="font-size:24px ;background-color: #115854; color: whitesmoke;margin: 5px" />
+                            <p:menuitem value="contact" url="#" style="font-size:24px ;background-color: #115854; color: whitesmoke;margin: 5px"/>
+                            <p:menuitem value="about" url="#" style="font-size:24px ;background-color: #115854; color: whitesmoke;margin: 5px"/>
+                            <p:menuitem value="help" url="#" style="font-size:24px ;background-color: #115854; color: whitesmoke;margin: 5px"/>
+                        </p:submenu>
+
+                    </p:menu>
+                </p:layoutUnit>
+
+                <p:layoutUnit position="center">
+                    Welcome to FMHACA
+                </p:layoutUnit>
+
+            </p:layout>
+
+        </h:body>
+
+    </f:view>
+</html>
+
